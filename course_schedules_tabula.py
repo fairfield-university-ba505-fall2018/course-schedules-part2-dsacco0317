@@ -104,4 +104,4 @@ def scrape_undergrad_course_booklet(filename):
                     course_specs[-1]['timecodes'] += course_spec['timecodes']
     return {'course_offerings':course_specs,'tags':tags}
 
-# print(scrape_undergrad_course_booklet('tabula-201801CourseBooklet.csv'))
+print(scrape_undergrad_course_booklet('tabula-201801CourseBooklet.csv'))
